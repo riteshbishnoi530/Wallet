@@ -29,6 +29,28 @@
   max-height: 50px;
 
 }
+.toggler {
+  height: 23px;
+  width: 60px;
+  border-radius: 42px;
+  background-color: white;
+  border: 1px solid #00000033;
+  display: flex;
+}
+
+.button {
+   height: 22px; 
+  width: 21px;
+  background-color: black;
+  border-radius: 50%;
+  transition: all 20ms linear;
+  cursor: pointer; 
+   
+}
+
+#toggle:checked~label.toggler {
+  justify-content: end;
+}
 
 .bg-img {
   background-image: url(/assets/image/bg-img.png);
@@ -105,6 +127,11 @@
   background: #FFFFFF;
   box-shadow: 0px 5px 10px 0px #0000000D;
 }
+.box-{
+  border: 1px solid #0000001A;
+  background: #FAFAFA;
+}
+
 
 
 .grid {
@@ -234,6 +261,7 @@
   }
 
   .menu-btn {
+    width:35px;
     margin-top: 15px;
     background: none;
     display: block;
@@ -241,13 +269,28 @@
   }
 
   .line {
-    width: 25px;
     height: 4px;
     display: flex;
     margin: 4px;
     background: black;
 
   }
+  .line-1{
+    width: 13px;
+  }
+  .pos{
+    top: -7px;
+  }
+  .toggler{
+    width: 30px;
+    height: 18px;
+  }
+  .button {
+    height: 17px; 
+   width: 17px;
+  }
+ 
+
 
   .mt-100 {
     margin-top: 400px;
