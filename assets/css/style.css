@@ -67,6 +67,13 @@
 
 .edit-profile {
   padding: 8px 24px;
+  background: black;
+  color: white;
+  transition: all .5s linear;
+}
+.edit-profile:hover{
+  background:none;
+  color: black;
 }
 
 .btn-edit {
