@@ -138,6 +138,16 @@
   border: 1px solid #0000001A;
   background: #FAFAFA;
 }
+.after::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: black;
+  top: 0;
+  right: -50%;
+  opacity: 20%;
+}
 
 
 
